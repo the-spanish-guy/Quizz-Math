@@ -1,11 +1,15 @@
 import React from 'react';
 
+import './global.css'
+
 import Home from './pages/Home'
+import Subtracao from './pages/subtracao'
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      {/* <Home/> */}
+      <Subtracao/>
     </div>
   );
 }
